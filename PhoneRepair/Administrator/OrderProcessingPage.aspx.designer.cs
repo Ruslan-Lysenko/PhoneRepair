@@ -7,129 +7,57 @@
 // </автоматически создаваемое>
 //------------------------------------------------------------------------------
 
-namespace PhoneRepair
+namespace PhoneRepair.Administrator
 {
 
 
-    public partial class _Default
+    public partial class OrderProcessingPage
     {
 
         /// <summary>
-        /// btnAdmin элемент управления.
+        /// ManagePanel элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAdmin;
+        protected global::System.Web.UI.WebControls.Panel ManagePanel;
 
         /// <summary>
-        /// frstPanel элемент управления.
+        /// lblEnterOrderId элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel frstPanel;
+        protected global::System.Web.UI.WebControls.Label lblEnterOrderId;
 
         /// <summary>
-        /// CheckBox1 элемент управления.
+        /// txtOrderId элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox1;
+        protected global::System.Web.UI.WebControls.TextBox txtOrderId;
 
         /// <summary>
-        /// pnlOrder элемент управления.
+        /// lblEmployeeId элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnlOrder;
+        protected global::System.Web.UI.WebControls.Label lblEmployeeId;
 
         /// <summary>
-        /// lblPhMan элемент управления.
+        /// txtEmployeeId элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPhMan;
-
-        /// <summary>
-        /// txtManufacturer элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически созданное поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtManufacturer;
-
-        /// <summary>
-        /// lblPhMod элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически созданное поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPhMod;
-
-        /// <summary>
-        /// txtModel элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически созданное поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtModel;
-
-        /// <summary>
-        /// BreakingControl элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически созданное поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::PhoneRepair.Controls.BreakingControl BreakingControl;
-
-        /// <summary>
-        /// lblYourName элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически созданное поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblYourName;
-
-        /// <summary>
-        /// txtName элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически созданное поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtName;
-
-        /// <summary>
-        /// lblPhNumber элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически созданное поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPhNumber;
-
-        /// <summary>
-        /// txtNumber элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически созданное поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNumber;
+        protected global::System.Web.UI.WebControls.TextBox txtEmployeeId;
 
         /// <summary>
         /// btnSubmit элемент управления.
@@ -141,12 +69,48 @@ namespace PhoneRepair
         protected global::System.Web.UI.WebControls.Button btnSubmit;
 
         /// <summary>
-        /// pnlOrderCreated элемент управления.
+        /// pnlIsCompleted элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnlOrderCreated;
+        protected global::System.Web.UI.WebControls.Panel pnlIsCompleted;
+
+        /// <summary>
+        /// lblOrderProcessingID элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически созданное поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblOrderProcessingID;
+
+        /// <summary>
+        /// OrderProcessingID элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически созданное поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox OrderProcessingID;
+
+        /// <summary>
+        /// chkIsCompleted элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически созданное поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox chkIsCompleted;
+
+        /// <summary>
+        /// ButtonIsCompleted элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически созданное поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonIsCompleted;
     }
 }

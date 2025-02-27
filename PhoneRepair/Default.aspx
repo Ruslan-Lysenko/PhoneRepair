@@ -1,7 +1,9 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="PhoneRepair._Default" %>
+<%@ Register TagPrefix="uc" TagName="BreakingControl" Src="~/Controls/BreakingControl.ascx" %>
+
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <asp:Button ID="btnAdmin" runat="server" Text="Admin" PostBackUrl="~/Administrator/OrdersPage.aspx" />
+    <asp:Button ID="btnAdmin" runat="server" Text="Admin" PostBackUrl="~/Administrator/OrderProcessing.aspx" />
     <h1>Phone Repair</h1>
     <br />
     <h3>We will save your phone</h3>
@@ -17,17 +19,10 @@
         <asp:TextBox runat="server" ID="txtManufacturer"></asp:TextBox>
         <br />
         <br />
-        <asp:Label runat="server" ID="lblColor" style="display: inline-block; width: 150px;">Color</asp:Label>
-        <asp:TextBox runat="server" ID="txtColor"></asp:TextBox>
-        <br />
-        <br />
         <asp:Label runat="server" ID="lblPhMod" style="display: inline-block; width: 150px;">Phone Model</asp:Label>
         <asp:TextBox runat="server" ID="txtModel"></asp:TextBox>
         <br />
-        <br />
-        <asp:Label runat="server" ID="lblBreak" style="display: inline-block; width: 150px;">Breaking</asp:Label>
-        <asp:TextBox runat="server" ID="txtBreaking"></asp:TextBox>
-        <br />
+        <uc:BreakingControl ID="BreakingControl" runat="server" />
         <br />
         <asp:Label runat="server" ID="lblYourName" style="display: inline-block; width: 150px;">Your Name</asp:Label>
         <asp:TextBox runat="server" ID="txtName"></asp:TextBox>

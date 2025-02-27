@@ -7,74 +7,83 @@
 // </автоматически создаваемое>
 //------------------------------------------------------------------------------
 
-namespace PhoneRepair.Controls
+namespace PhoneRepair.Administrator
 {
 
 
-    public partial class OrderControl
+    public partial class EmployeePage
     {
 
         /// <summary>
-        /// lblID элемент управления.
+        /// form1 элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox lblID;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// lblPhoneManufacturer элемент управления.
+        /// lblEmployeeId элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox lblPhoneManufacturer;
+        protected global::System.Web.UI.WebControls.Label lblEmployeeId;
 
         /// <summary>
-        /// lblPhoneModel элемент управления.
+        /// txtEmployeeId элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox lblPhoneModel;
+        protected global::System.Web.UI.WebControls.TextBox txtEmployeeId;
 
         /// <summary>
-        /// lblBreaking элемент управления.
+        /// btnFindEmployee элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox lblBreaking;
+        protected global::System.Web.UI.WebControls.Button btnFindEmployee;
 
         /// <summary>
-        /// lblOrderName элемент управления.
+        /// pnlEmployeeDetails элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox lblOrderName;
+        protected global::System.Web.UI.WebControls.Panel pnlEmployeeDetails;
 
         /// <summary>
-        /// lblOrderPhone элемент управления.
+        /// lblEmployeeName элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox lblOrderPhone;
+        protected global::System.Web.UI.WebControls.Label lblEmployeeName;
 
         /// <summary>
-        /// lblIsCompleted элемент управления.
+        /// txtEmployeeName элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblIsCompleted;
+        protected global::System.Web.UI.WebControls.TextBox txtEmployeeName;
+
+        /// <summary>
+        /// btnUpdateEmployee элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически созданное поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnUpdateEmployee;
     }
 }
